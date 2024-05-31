@@ -1,0 +1,39 @@
+baseURL = 'https://xingyahao.com/'
+languageCode = 'en-us'
+title = 'Xing Yahao'
+
+theme="archie"
+copyright = "© Xing Yahao"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# documentation https://themes.gohugo.io/themes/archie/
+
+paginate=10
+
+[params]
+	mode="toggle"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/keidarcy"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/xingyahao"
