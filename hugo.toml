@@ -15,6 +15,7 @@ paginate=10
 
 [params]
 	mode="toggle"
+	favicon = "https://xingyahao.com/favicon.ico"
 
 # Main menu Items
 

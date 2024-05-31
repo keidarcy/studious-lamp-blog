@@ -1,7 +1,7 @@
 +++
 title = 'Introducing E1s the K9s Inspired Cli for Aws Ecs'
 description = 'E1S - Easily Manage AWS ECS Resources in Terminal(~k9s for ECS)'
-date = 2024-05-31T09:21:51+09:00
+date = 2024-04-19T09:21:51+09:00
 +++
 
 ![](https://storage.googleapis.com/zenn-user-upload/84798ff12916-20240531.png)
