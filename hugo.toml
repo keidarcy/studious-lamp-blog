@@ -5,7 +5,7 @@ title = 'Xing Yahao'
 theme="archie"
 copyright = "© Xing Yahao"
 # Code Highlight
-pygmentsstyle = "monokai"
+pygmentsstyle = "gruvbox"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
