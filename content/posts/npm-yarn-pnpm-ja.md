@@ -1,9 +1,8 @@
 +++
-title = 'npm/yarn の不足点と pnpm を推す理由'
+title = 'npm/yarn の不足点と pnpm を推す理由(日本語)'
 date = 2021-12-06T11:46:46+09:00
 description = 'npm vs yarn vs pnpm in Japanese'
 +++
-
 
 ## pnpmとは
 
@@ -360,6 +359,6 @@ pnpm remove express
 pnpmはモノリポもサポートです。作者は[lernaとの比較の文章](https://medium.com/pnpm/pnpm-vs-lerna-filtering-in-a-multi-package-repository-1f68bc644d6a)もあります。詳細を説明すると、長くなるので、ここは一例だけ紹介させます。
 
 ```shell
-pnpm --parallel  run --recursive  --filter @meetsmore test
+pnpm --parallel  run --recursive  --filter apps test
 ```
-やっていることは、非同期で@meetsmore配下のworkspaceでのnpm script testを実行するコマンドです。元々lernaとかモノリポ管理のライブラリー必要なシーンもpnpmだけ完結可能です。
+やっていることは、非同期でapps配下のworkspaceでのnpm script testを実行するコマンドです。元々lernaとかモノリポ管理のライブラリー必要なシーンもpnpmだけ完結可能です。
