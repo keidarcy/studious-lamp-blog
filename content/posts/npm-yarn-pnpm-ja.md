@@ -1,5 +1,5 @@
 +++
-title = 'npm/yarn の不足点と pnpm を推す理由(日本語)'
+title = 'npm/yarn の不足点と pnpm を推す理由(Japanese)'
 date = 2021-12-06T11:46:46+09:00
 description = 'npm vs yarn vs pnpm in Japanese'
 +++
@@ -29,7 +29,7 @@ pnpm - 解決法
 
 ## ディスクスペース
 
-### npm/yarn- ディスクスペース消耗のnode_modules
+### npm/yarn - ディスクスペース消耗のnode_modules
 
 npm/yarnはディスク容量使いすぎという不足点があって、同じパッケージを100回分インストールしたら、100分のパッケージがnode_modulesのディスクに保存されます。日常の例では、前のプロジェクトが終わって、node_modulesがそのまま残ってしまったら、大量のディスク容量を使うことがよくあります。これを解決するため、[npkill](https://npkill.js.org/)がよく使われます。
 
