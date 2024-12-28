@@ -38,3 +38,7 @@ url = "https://github.com/keidarcy"
 name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/xingyahao"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-FGTFKPMCX2'
