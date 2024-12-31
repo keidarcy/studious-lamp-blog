@@ -1,5 +1,5 @@
 +++
-title = 'How We Improved Developer Experience and Reduced SRE Toil by Migrating to TypeScript-Based Infrastructure'
+title = 'Improving DX and Reducing SRE Toil with TypeScript Terraform Infrastructure'
 description = 'How we empowered developers to manage cloud infrastructure by migrating from Terraform to CDKTF, reducing SRE toil through TypeScript and automated PR workflows.'
 date = 2024-12-17T09:21:51+09:00
 +++
