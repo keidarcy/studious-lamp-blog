@@ -1,0 +1,3 @@
+# Exclude HTML and CSS from language statistics
+*.html linguist-documentation
+*.css linguist-documentation
