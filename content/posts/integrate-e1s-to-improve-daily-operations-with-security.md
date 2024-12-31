@@ -27,14 +27,14 @@ This blog outlines the transformation, comparing the old and new workflows, and 
 - Team members used SSH keys to log into specific EC2 servers.
 - Operational tasks were performed manually on these instances.
 
-![old-workflow.png](https://storage.googleapis.com/zenn-user-upload/c733932fd992-20241231.png)
+![old-workflow.png](https://storage.googleapis.com/zenn-user-upload/cbe42adfc429-20241231.png)
 
 **New Workflow: ECS-Based Operations with e1s**
 
 - Team members use [e1s](https://github.com/keidarcy/e1s) to connect directly to ECS containers based on IAM roles granted through [OneLogin](https://github.com/onelogin/onelogin-python-aws-assume-role), our company-wide identity provider.
 - ECS Exec enables seamless container access without intermediary servers.
 
-![new-workflow.png](https://storage.googleapis.com/zenn-user-upload/cbe42adfc429-20241231.png)
+![new-workflow.png](https://storage.googleapis.com/zenn-user-upload/c733932fd992-20241231.png)
 
 ## Benefits Overview
 
