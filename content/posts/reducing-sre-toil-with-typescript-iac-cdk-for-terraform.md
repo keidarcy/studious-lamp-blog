@@ -1,5 +1,5 @@
 +++
-title = 'Improving DX and Reducing SRE Toil with TypeScript Terraform Infrastructure'
+title = 'Reducing SRE Toil with TypeScript IaC - CDK for Terraform'
 description = 'How we empowered developers to manage cloud infrastructure by migrating from Terraform to CDKTF, reducing SRE toil through TypeScript and automated PR workflows.'
 date = 2024-12-17T09:21:51+09:00
 +++
@@ -244,3 +244,8 @@ Our migration to CDKTF has significantly improved our infrastructure management:
 - Reduced operational overhead
 
 While challenges remain, particularly around performance and community support, the benefits have justified our decision. We continue to iterate on our implementation, focusing on automation, security, and developer experience.
+
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2024/12/17/152038) on December 17, 2024.*

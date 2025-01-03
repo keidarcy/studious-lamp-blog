@@ -94,3 +94,8 @@ We will continue to make CI for each microservice independent, and also consolid
 # Conclusion and future moves
 
 We have made a lot of improvements throughout the year, and I think we have achieved good results, but there are still many areas that can be improved. For example, the next OKRs are to improve the development environment by getting the server up and running faster and decreasing the time to run Unit tests. Merging into the main monorepo to benefit projects that already exist in separate, split repositories. Terraform from [HCL](https://github.com/hashicorp/hcl) to [CDKTF](https://github.com/hashicorp/terraform-cdk) so that app engineers can also create server alerts. Migrated and added to monorepo, etc.
+
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2022/12/16/183916) on December 16, 2022.*

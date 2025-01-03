@@ -366,3 +366,8 @@ pnpm also supports monorepos. The author also has a comparison with Lerna. It wo
 pnpm --parallel run --recursive --filter apps test
 ```
 What it does is a command that runs npm script test asynchronously in the workspace under apps. Even in situations where you would need a monorepo management library like Lerna, you can complete it with just pnpm.
+
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2021/12/06/112931) on December 6, 2021.*

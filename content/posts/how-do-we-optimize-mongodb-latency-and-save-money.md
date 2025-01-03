@@ -135,3 +135,7 @@ For some user-facing heavy queries, we plan to push them to a message queue and 
 Redesign schema is the most valuable but engineer resource expensive solution. For slow queries(~2s) in the previous section, we would need to improve the schema to make them faster.
 
 For example, one of the lowest endpoints is to show Gmail client-like UI for pros to indicate inbox message count, etc. We have many complicated queries to get these numbers. If we have these numbers stored and computed in the background not synchronously computed in the runtime, this endpoint would have a huge improvement. Of course, data consistency is a challenge in this case.
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2023/12/08/192812) on December 8, 2023.*

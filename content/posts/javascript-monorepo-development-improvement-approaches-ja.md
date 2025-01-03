@@ -96,3 +96,7 @@ dynamic config は通常の workflow の前に、setup workflow 追加されて�
 
 一年間通して、沢山の改善を行って、良い結果になったと思いますが、改善できるところまだまだ沢山あります。例えば、次の OKR として、開発環境の改善として、サーバをより早く立ち上がり、Unit テストの実行時間の減少があります。すでに、分割した別のリポジトリに存在しているプロジェクトを恩恵を受けるため、メインのモノレポにマージ。アプリエンジニアもサーバアラートを作成できるように、terraform を [HCL](https://github.com/hashicorp/hcl) から [CDKTF](https://github.com/hashicorp/terraform-cdk) に移行してモノレポに追加などがあります。
 
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2022/12/16/183916) on December 16, 2022.*

@@ -362,3 +362,7 @@ pnpmはモノリポもサポートです。作者は[lernaとの比較の文章]
 pnpm --parallel  run --recursive  --filter apps test
 ```
 やっていることは、非同期でapps配下のworkspaceでのnpm script testを実行するコマンドです。元々lernaとかモノリポ管理のライブラリー必要なシーンもpnpmだけ完結可能です。
+
+---
+
+*Originally published at [https://engineering.meetsmore.com](https://engineering.meetsmore.com/entry/2021/12/06/112931) on December 6, 2021.*
