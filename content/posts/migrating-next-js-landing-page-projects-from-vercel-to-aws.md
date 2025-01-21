@@ -18,11 +18,11 @@ My team experienced a similar moment: our monthly costs jumped from ~$2,000 to ~
 
 To help understand the changes, here is a simplified version of our system diagram before and after migration:
 
-![d1.png](https://storage.googleapis.com/zenn-user-upload/0bac76004cba-20241231.png)
+![2.png](https://storage.googleapis.com/zenn-user-upload/9b9a750b6370-20241231.png)
 
 Before migration, we had multiple Vercel projects routed by a Lambda@Edge function, which added significant complexity to our infrastructure.
 
-![2.png](https://storage.googleapis.com/zenn-user-upload/9b9a750b6370-20241231.png)
+![d1.png](https://storage.googleapis.com/zenn-user-upload/0bac76004cba-20241231.png)
 
 After migration, we used the same ECS cluster to host API applications and multiple landing page projects. Server-to-server communication benefited from AWS’s private network, improving performance.
 
