@@ -16,6 +16,8 @@ https://github.com/keidarcy/kubectl-eks-viewer
 
 ## Sample Usage
 
+- Basic Usage
+
 ```bash
 $ kubectl eks-viewer
 === cluster ===
@@ -43,9 +45,13 @@ NAME       CATEGORY    STATUS
 <REDACTED>
 ```
 
+- Get pod-identity-associations resource only with different context
+
 ```bash
 kubectl eks-viewer pod-identity-associations --context <context-name>
 ```
+
+- Get access-entries only with jsonpath expression
 
 ```bash
 kubectl eks-viewer access-entries -o=jsonpath="{.items.access-entries[0].AccessEntryArn}"
