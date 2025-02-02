@@ -28,6 +28,10 @@ NAME   VERSION   STATUS   PLATFORM VERSION   AUTH MODE
 ACCESS ENTRY PRINCIPAL ARN    KUBERNETES GROUPS    ACCESS POLICIES
 <REDACTED>
 
+=== addons ===
+NAME    VERSION    STATUS   ISSUES
+<REDACTED>
+
 === nodegroups ===
 NAME      STATUS   INSTANCE TYPE   DESIRED SIZE   MIN SIZE   MAX SIZE   VERSION   AMI TYPE     CAPACITY TYPE
 <REDACTED>
@@ -48,13 +52,13 @@ NAME       CATEGORY    STATUS
 - Get pod-identity-associations resource only with different context
 
 ```bash
-kubectl eks-viewer pod-identity-associations --context <context-name>
+$ kubectl eks-viewer pod-identity-associations --context <context-name>
 ```
 
 - Get access-entries only with jsonpath expression
 
 ```bash
-kubectl eks-viewer access-entries -o=jsonpath="{.items.access-entries[0].AccessEntryArn}"
+$ kubectl eks-viewer access-entries -o=jsonpath="{.items.access-entries[0].AccessEntryArn}"
 ```
 
 ## Feedback
