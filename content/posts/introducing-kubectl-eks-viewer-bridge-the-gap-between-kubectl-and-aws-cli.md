@@ -53,4 +53,4 @@ kubectl eks-viewer access-entries -o=jsonpath="{.items.access-entries[0].AccessE
 
 ## Feedback
 
-Would love to hear your feedback! Let me know if you find it useful or if there are any features you'd like to see.
+Would love to hear your feedback! Let me know if you find it useful or if there are any features you'd like to see. If you have any feature requests or bug reports, please submit them through GitHub [Issues](https://github.com/keidarcy/kubectl-eks-viewer/issues).
