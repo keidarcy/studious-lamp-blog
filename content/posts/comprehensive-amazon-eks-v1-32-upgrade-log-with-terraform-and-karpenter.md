@@ -18,18 +18,18 @@ My main references for the upgrade were the [EKS Cluster Upgrades](https://ekswo
 
 ### Infrasture overview
 
-- All AWS resources are managed with Terraform
+- All AWS resources are managed with Terraform.
 - Atlantis runs to execute plans and apply changes.
-- All applications are deployed via ArgoCD
+- All applications are deployed via ArgoCD.
 - Worker nodes, except for Karpenter nodes provisioned by Karpenter.
-- One managed node group for Karpenter,
+- One managed node group for Karpenter.
 
 ### Upgrade checklist
 
 - [Kubernetes v1.32 changelog](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.32.md)
 - [EKS v1.32 release notes](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html#kubernetes-1-32)
 - [Karpenter Compatibility Matrix](https://karpenter.sh/v1.4/upgrading/compatibility/)
-- EKS Upgrade Insights: This feature helps you check upgrade compatibility and provides recommendations.
+- EKS Upgrade Insights: This feature helps you check upgrade compatibility and provides recommendations
     - [Version Skew Policy](https://kubernetes.io/releases/version-skew-policy/)
     - [kube-no-trouble](https://github.com/doitintl/kube-no-trouble) to scan for deprecated APIs
     - Addon compatibility check with the following script:
