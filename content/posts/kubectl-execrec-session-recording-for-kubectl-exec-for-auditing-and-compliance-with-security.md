@@ -1,6 +1,6 @@
 +++
 title = 'kubectl-execrec: Session Recording for kubectl exec for auditing and compliance with security'
-description = 'The plugin was created to address the gap in Kubernetes audit logs, which only capture API calls but not session content. Unlike complex tools like Falco, this solution focuses on simplicity, recording kubectl exec sessions for security and compliance without requiring significant changes to existing workflows or additional infrastructure.'
+description = 'The plugin you need just record `kubectl exec` sessions with minimal changes to existing workflows. No complex setup, no additional infrastructure, just session recording.'
 date = 2025-08-11T18:23:00+09:00
 +++
 
