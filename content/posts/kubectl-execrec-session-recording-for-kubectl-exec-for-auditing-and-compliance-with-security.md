@@ -4,6 +4,8 @@ description = 'The plugin was created to address the gap in Kubernetes audit log
 date = 2025-08-11T18:23:00+09:00
 +++
 
+![intro-image-created-by-chatgpt.png](https://miro.medium.com/v2/resize:fit:700/1*xpNw34UIvHmnt-4OLl-G3Q.png)
+
 ## Why I Created This Plugin
 
 [https://github.com/keidarc/kubectl-execrec](https://github.com/keidarc/kubectl-execrec)
