@@ -6,13 +6,15 @@ date = 2025-08-11T18:23:00+09:00
 
 ## Why I Created This Plugin
 
+[https://github.com/keidarc/kubectl-execrec](https://github.com/keidarc/kubectl-execrec)
+
 Kubernetes has built-in audit logs, but they only capture API calls, not the actual session content. When you use `kubectl exec`, you get audit entries showing who accessed which pod, but not what commands were run or what output was produced.
 
 For comprehensive security monitoring, tools like [Falco](https://falco.org/) provide real-time threat detection across containers and Kubernetes. However, these are heavy solutions designed for enterprise security teams.
 
 I wanted something simpler: just record `kubectl exec` sessions with minimal changes to existing workflows. No complex setup, no additional infrastructure, just session recording when you need it for security and compliance.
 
-## Solution: kubectl-execrec
+## Solution: [kubectl-execrec](https://github.com/keidarc/kubectl-execrec)
 
 **execrec** = **exec** + **rec**order
 
